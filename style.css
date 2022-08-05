@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+}
+
+
+.container{
+    display: grid;
+}
+
+.header{
+    grid-column: 1 / 2;
+}
+
+.sidebar{
+    grid-column: 2 / 4;
+    grid-row: 5/ 3;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr);
+}
+
+
+.card{
+    
+}
