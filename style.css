@@ -44,7 +44,13 @@ ul li:hover{
     display: grid;
     grid-column: 2 / -1;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, 300px);
+    background-color: lightgray;
+    gap: 20px;
 }
 
 
-.card {}
+.card {
+    background-color: white;
+    grid-row: 1fr;
+}
