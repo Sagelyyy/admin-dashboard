@@ -135,6 +135,10 @@ a:visited {
     color: white;
 }
 
+a{
+    color: white;
+}
+
 
 ul li a:hover {
     cursor: pointer;
